@@ -2,13 +2,13 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
-  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
+  apiKey: "AIzaSyAERzNtPbIrrm8bmCzm9j79yQCRiACEKPo",
+  authDomain: "auth-db86a.firebaseapp.com",
+  databaseURL: "https://auth-db86a-default-rtdb.firebaseio.com",
+  projectId: "auth-db86a",
+  storageBucket: "auth-db86a.appspot.com",
+  messagingSenderId: "700716211844",
+  appId: "1:700716211844:web:669e0b7ead00a8d922ecd1"
 };
 
 const firebaseApp = !firebase.apps.length
